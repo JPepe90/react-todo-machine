@@ -1,0 +1,23 @@
+input {
+  margin-left: 5%;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 89%;
+  text-align: left;
+  border: 1px solid #3b3b3b;
+  border-radius: 4px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+input:focus {
+  outline-color: #444cbb;
+}
+
+@media (hover: hover) {
+  input:hover {
+    border: solid #ff6565 1px;
+    /* border-style: inset; */
+  }
+}
