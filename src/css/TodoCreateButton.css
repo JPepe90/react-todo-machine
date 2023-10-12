@@ -1,15 +1,18 @@
 .CreateTodoButton {
+  z-index: 2;
   font-size: 50px; 
   border-radius: 30px;
   width: 60px;
   background-color: #127BE3;
   color: rgb(216, 216, 216);
   border: 0px;
+  position:relative;
   float: right;
 }
 
 @media (hover: hover) {
   button:hover {
+    z-index: 1;
     border: solid #127BE3 1px;
     color: #127BE3;
     background-color: white;

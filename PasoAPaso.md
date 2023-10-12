@@ -33,3 +33,6 @@ Opciones:
   - Si error es true, tuvimos un error.
   - Si no estamos cargando y el length del array de elementos es 0 entonces informar que se cargue el primer pendiente.
   - Si no se cumple ninguna de las anteriores, mostrar la lista de tareas.
+
+# React Portals
+Nos permite transportar componentes de react entre nodos de HTML.
